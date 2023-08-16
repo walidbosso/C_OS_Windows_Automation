@@ -19,7 +19,7 @@ int main() {
     
     strcat(command, " savescreenshot ");
     
-    sprintf(command + strlen(command), "%s.png",nom); // ou strcat
+    sprintf(command + strlen(command), "%s.png",nom); // ou strcat "
     //printf("%s",command);
 
     // Execute command to save screenshot
