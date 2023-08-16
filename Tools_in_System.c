@@ -3,7 +3,7 @@
 #include <process.h>
 
 int main()
-{	system("color f9"); //75
+{	system("color f9"); 
     int choice=0;
 
    do{
