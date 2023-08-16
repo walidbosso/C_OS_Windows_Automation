@@ -15,17 +15,9 @@ int main()
     printf("   1. Allow and Start Hotspot ...\n");  
     printf("   2. Stop and disallow Hotspot...\n");
     printf("   3. Show Hotspot Informations...\n");
-    /*printf("   4. Change Username...\n");*/
     printf("   4. Open Wifi Configuration...\n");  
     printf("   5. Change when laptop hibernate...\n");  
-    
     printf("\n***********************************************\n");
-   // printf(" Informations :\n");  
-    /*printf("  7. Wifi information...\n");
-    printf("  8. ipadress...\n");
-    printf("  9. Clavier Visuel...\n");
-    printf("  10. Programmes et fonctionnalites...\n");
-     printf("\n***************************************\n");*/
     printf("   0. Exit...\n");  
     printf("\n***********************************************\n");
     printf("\n  Choose a number : ");
@@ -43,7 +35,7 @@ int main()
             system("netsh wlan set hostednetwork mode=allow");
             system("netsh wlan start hostednetwork");            
             system("netsh wlan show hostednetwork");
-            printf("P.S. This will open wi-fi configuration!'...\n     Right-click on Wi-Fi -> Properties \n     -> Share Tap -> Enable first option\n     Choose PBELL_Hotspot in Dropdown, Press Ok\n\n");
+            printf("P.S. This will open wi-fi configuration!'...\n     Right-click on Wi-Fi -> Properties \n     -> Share Tap -> Enable first option\n     Choose The Hotspot in Dropdown, Press Ok\n\n");
 			system("pause");
             system("cls");
             
@@ -62,21 +54,7 @@ int main()
 	        system("pause");
 	        system("cls");
 	    break;
-	    /**case 4:   
-	    	printf("\n  Enter the SSID or Enter 0 to Cancel: ");
-	    	printf("\n  --> ");
-  			scanf("%s", name);
-  			printf("\n");
-  			if(strcmp(name, "0") == 0) {
-  				system("cls");
-  				break;
-			}
-  			sprintf(command, "netsh wlan set hostednetwork ssid=%s", name);
-  		    system(command);
-  		    system("netsh wlan show hostednetwork");
-	        system("pause");
-	        system("cls");
-	    break;*/
+
 	    case 4:
 	        system("ncpa.cpl");
 	        system("cls");  

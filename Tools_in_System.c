@@ -85,7 +85,7 @@ int main()
 			system("cls");    
 	        break;
 	    case 8:
-	        system("start PATH_TO\\Hotspot");
+	        system("start Hotspot.exe");
 	        
 	        system("cls");
 	       
