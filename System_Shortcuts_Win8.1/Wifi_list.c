@@ -8,11 +8,11 @@ int main() {
     
     char command[1000];
     
-    strcpy(command, " \"PATH_TO\\nircmd_x64.exe\"");
+    strcpy(command, "nircmd");
     
     strcat(command, " sendkeypress rwin+B ");
     system(command);
-    strcpy(command, " \"C:\\Users\\packardbell\\Desktop\\Apps Desktop\\Apps files\\EcMenu_v1.6\\Files\\nircmd\\nircmd_x64.exe\"");
+    strcpy(command, "nircmd");
     
    
     
@@ -20,13 +20,13 @@ int main() {
     system(command);
     
     
-     strcpy(command, " \"PATH_TO\\nircmd_x64.exe\"");
+     strcpy(command, "nircmd");
     
     strcat(command, " sendkey right press ");
     system(command);
     
     
-     strcpy(command, " \"PATH_TO\\nircmd_x64.exe\"");
+     strcpy(command, "nircmd");
     
     strcat(command, " sendkey spc press ");
     system(command);

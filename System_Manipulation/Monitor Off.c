@@ -4,14 +4,14 @@
 #include <time.h>
 
 int main() {
-
+    system("mode con: cols=15 lines=1");
+    
     char command[1000];
     
     strcpy(command, "nircmd");
-    
-    strcat(command, " sendkeypress ctrl+alt+tab ");
+    strcat(command, " monitor off ");
     system(command);
 
-    return 0;		
+    return 0;
 }
 
