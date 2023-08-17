@@ -4,6 +4,7 @@
 
 int main()
 {	system("color f9"); 
+system("mode con: cols=50");
     int choice=0;
 
    do{

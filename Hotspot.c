@@ -5,9 +5,10 @@
 
 int main()
 {	
+	system("color f9"); 
+	system("mode con: cols=50 lines=60");
     int choice=0;
-    char name[100];
-    char command[200];
+  
 
    do {
     printf("\n***********************************************\n");
