@@ -4,7 +4,7 @@
 
 int main()
 {	system("color f9"); 
-system("mode con: cols=50");
+	system("mode con: cols=50");
     int choice=0;
 
    do{
@@ -69,10 +69,10 @@ system("mode con: cols=50");
         	break;
         case 5:
 	        system("SHUTDOWN -l");
-	        
-	        /*------------------------------*/
-	        
+	              
 	        break;
+	        
+	        	        /*------------------------------*/
         case 6:
 	        system("msinfo32");
 	        
