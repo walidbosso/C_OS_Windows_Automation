@@ -65,27 +65,11 @@ This project is a collection of C codes designed to simplify various tasks when 
 - **Shortcuts:** Includes code for creating shortcuts.
 - **Manipulation:** Holds code for various system manipulations.
 
-## How to Use
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/walidbosso/C_OS_Windows_Automation.git
-   ```
-
-2. Navigate to the specific folder of interest (e.g., `Screenshot`, `Shortcuts`, `Manipulation`).
-
-3. Compile the C code and run the executable.
-
-4. Follow the instructions provided in each folder's README.
 
 ## License
 
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 
-## About the Author
-
-© by Walid BOUSSOU 🇲🇦
 
 ## Contributing
 
